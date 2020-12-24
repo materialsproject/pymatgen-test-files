@@ -1,4 +1,4 @@
-@include ../test_files/include.inc
+@include include.inc
 @SET METHOD QS
 @SET MAX_SCF 20
 
@@ -250,6 +250,10 @@
 			BASIS_SET DZVP-MOLOPT-GTH
 			POTENTIAL GTH-PBE
 			BASIS_SET AUX_FIT cFIT3
+			&POTENTIAL
+			    1 2 3 # Nonsense
+			    11 3 0.1 # Nonsense
+			&END
 		&END KIND
 	&END SUBSYS
 
