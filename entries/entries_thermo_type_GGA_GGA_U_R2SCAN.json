@@ -17,7 +17,7 @@
                 "uncertainty": 0.0,
                 "name": "MP GGA(+U)/R2SCAN mixing adjustment",
                 "cls": {
-                    "@module": "pymatgen.core.entries.mixing_scheme",
+                    "@module": "pymatgen.entries.mixing_scheme",
                     "@class": "MaterialsProjectDFTMixingScheme",
                     "@version": null,
                     "structure_matcher": {
@@ -42,7 +42,7 @@
                     "run_type_1": "GGA(+U)",
                     "run_type_2": "R2SCAN",
                     "compat_1": {
-                        "@module": "pymatgen.core.entries.compatibility",
+                        "@module": "pymatgen.entries.compatibility",
                         "@class": "MaterialsProject2020Compatibility",
                         "@version": null
                     },
@@ -398,7 +398,7 @@
                 "uncertainty": 0.0,
                 "name": "MP GGA(+U)/R2SCAN mixing adjustment",
                 "cls": {
-                    "@module": "pymatgen.core.entries.mixing_scheme",
+                    "@module": "pymatgen.entries.mixing_scheme",
                     "@class": "MaterialsProjectDFTMixingScheme",
                     "@version": null,
                     "structure_matcher": {
@@ -423,7 +423,7 @@
                     "run_type_1": "GGA(+U)",
                     "run_type_2": "R2SCAN",
                     "compat_1": {
-                        "@module": "pymatgen.core.entries.compatibility",
+                        "@module": "pymatgen.entries.compatibility",
                         "@class": "MaterialsProject2020Compatibility",
                         "@version": null
                     },
